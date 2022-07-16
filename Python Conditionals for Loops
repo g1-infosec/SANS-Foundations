@@ -1,0 +1,7 @@
+#Lab Instructions
+#Using conditionals and loops, create a program that prints out all the days of the month you're in now, starting with the 1st of the month, and prints out the date and the day of the week in a tidy list.
+
+
+weekday = ['Friday','Saturday','Sunday','Monday','Tuesday','Wednesday','Thursday']
+for day in range(1,32):
+	print('Today is '+weekday[(day%7)-1]+' and the date is '+ str(day) +'/07/2022')
